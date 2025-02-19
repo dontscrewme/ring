@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> // For memcpy
+#include <assert.h>
 
 struct ring_buffer {
   unsigned char *buffer;
